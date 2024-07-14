@@ -161,7 +161,7 @@ y_pred = model.predict(X_test)
 r2 = 0.98
 print("The accuracy is:", r2)
 
-GDP CALCULATION:
+#GDP CALCULATION:
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -231,7 +231,7 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(X_train, y_train, epochs=100, validation_split=0.2)
 
 
-Clustering:
+#Clustering:
 
 from sklearn.cluster import KMeans
 kmeans = KMeans(n_clusters=5, random_state=42)
